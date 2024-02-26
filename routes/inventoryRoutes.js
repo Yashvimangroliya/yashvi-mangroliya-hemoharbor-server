@@ -34,7 +34,7 @@ router.post(
 );
 
 //GET DONAR RECORDS
-router.get("/get-donars",authMiddleware, getDonarsController);
+router.get("/get-donars", authMiddleware, getDonarsController);
 
 //GET HOSPITAL RECORDS
 router.get("/get-hospitals", authMiddleware, getHospitalController);
