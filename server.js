@@ -16,6 +16,7 @@ app.use(morgan("dev"));
 app.use('/api/data', require("./routes/dataRoutes"));
 app.use('/api/auth', require("./routes/authRoutes"));
 app.use('/api/inventory', require("./routes/inventoryRoutes"));
+app.use('/api/analytics', require("./routes/analyticsRoutes"));
 
 
 
